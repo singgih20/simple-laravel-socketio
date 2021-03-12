@@ -1,15 +1,15 @@
-<li>
-    <ol>Install redis server in your system (sudo apt install redis-server for linux) </ol>
-    <ol>npm install</ol>
-    <ol>composer require predis/predis</ol>
-    <ol>Set .env REDIS_PORT=6379
-LARAVEL_ECHO_PORT=6001</ol>
-    <ol>php artisan migrate</ol>
-    <ol>laravel-echo-server init (make sure it's running on localhost)</ol>
-    <ol>npm run dev</ol>
-    <ol>laravel-echo-server start</ol>
-    <ol>php artisan serve</ol>
-    <ol>Go to http://127.0.0.1:8000/ </ol>
-    <ol>Go to http://127.0.0.1:8000/t fire an event to get a real time data update </ol>
-    <ol>Re-Check http://127.0.0.1:8000 </ol>
-</li>
+<ol>
+    <li>Install redis server in your system (sudo apt install redis-server for linux) </li>
+    <li>npm install</li>
+    <li>composer require predis/predis</li>
+    <li>Set .env REDIS_PORT=6379
+LARAVEL_ECHO_PORT=6001</li>
+    <li>php artisan migrate</li>
+    <li>laravel-echo-server init (make sure it's running on localhost)</li>
+    <li>npm run dev</li>
+    <li>laravel-echo-server start</li>
+    <li>php artisan serve</li>
+    <li>Go to http://127.0.0.1:8000/ </li>
+    <li>Go to http://127.0.0.1:8000/t fire an event to get a real time data update </li>
+    <li>Re-Check http://127.0.0.1:8000 </li>
+</ol>
