@@ -10,6 +10,6 @@ LARAVEL_ECHO_PORT=6001</ol>
     <ol>laravel-echo-server start</ol>
     <ol>php artisan serve</ol>
     <ol>Go to http://127.0.0.1:8000/ </ol>
-    <ol>Go to http://127.0.0.1:8000/t for fire a event to get an update real time data </ol>
+    <ol>Go to http://127.0.0.1:8000/t fire an event to get a real time data update </ol>
     <ol>Re-Check http://127.0.0.1:8000 </ol>
 </li>
