@@ -4,10 +4,8 @@
     <ol>composer require predis/predis</ol>
     <ol>Set .env REDIS_PORT=6379
 LARAVEL_ECHO_PORT=6001</ol>
-    <ol>set config/database.php  default 'port' => env('REDIS_PORT', 6379),
-        'database' => env('REDIS_DB', 0), cachce  'port' => env('REDIS_PORT', 6379),
-        'database' => env('REDIS_CACHE_DB', 1),</ol>
-    <ol>laravel-echo-server init</ol>
+    <ol>php artisan migrate</ol>
+    <ol>laravel-echo-server init (make sure it's running on localhost)</ol>
     <ol>npm run dev</ol>
     <ol>laravel-echo-server start</ol>
     <ol>php artisan serve</ol>
