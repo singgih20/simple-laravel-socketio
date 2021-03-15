@@ -5,6 +5,7 @@
     <li>Set .env REDIS_PORT=6379
 LARAVEL_ECHO_PORT=6001</li>
     <li>php artisan migrate</li>
+    <li>npm install -g laravel-echo-server</li>
     <li>laravel-echo-server init (make sure it's running on localhost)</li>
     <li>npm run dev</li>
     <li>laravel-echo-server start</li>
